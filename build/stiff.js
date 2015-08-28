@@ -1,0 +1,2 @@
+// (C) Andrea Giammarchi - MIT Style License
+var Stiff=function(a){function c(d){return f.branch(d||g)}var h=a.create,e=a.freeze||a,k=a.getPrototypeOf,g=a.prototype,f=c.prototype;e(a.defineProperties(f,{branch:{value:function(d){var b={},a;for(a in d)b[a]={enumerable:!0,value:e(d[a])};return e(h(this,b))}},head:{value:function(a){a=a||1;for(var b=this;a--;)if(b=k(b),b===f)return null;return b}},merge:{value:function(){return c(this)}}}));try{module.exports=e(c)}catch(l){}return c}(Object);

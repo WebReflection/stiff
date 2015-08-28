@@ -1,0 +1,23 @@
+{
+  "name": "stiff",
+  "version": "1.0.0",
+  "description": "Basic logic for immutable objects",
+  "main": "build/stiff.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebReflection/stiff.git"
+  },
+  "keywords": [
+    "immutable",
+    "objects"
+  ],
+  "author": "Andrea Giammarchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WebReflection/stiff/issues"
+  },
+  "homepage": "https://github.com/WebReflection/stiff#readme"
+}
